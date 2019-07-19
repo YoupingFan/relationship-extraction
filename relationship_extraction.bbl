@@ -1,0 +1,163 @@
+\begin{thebibliography}{10}
+
+\bibitem{alt2019fine}
+Christoph Alt, Marc H{\"u}bner, and Leonhard Hennig.
+\newblock Fine-tuning pre-trained transformer language models to distantly
+  supervised relation extraction.
+\newblock {\em arXiv preprint arXiv:1906.08646}, 2019.
+
+\bibitem{cai2016bidirectional}
+Rui Cai, Xiaodong Zhang, and Houfeng Wang.
+\newblock Bidirectional recurrent convolutional neural network for relation
+  classification.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 756--765, 2016.
+
+\bibitem{chen2019global}
+Zhiyu Chen, Hanwen Zha, Honglei Liu, Wenhu Chen, Xifeng Yan, and Yu~Su.
+\newblock Global textual relation embedding for relational understanding.
+\newblock {\em arXiv preprint arXiv:1906.00550}, 2019.
+
+\bibitem{fugraphrel}
+Tsu-Jui Fu, Peng-Hsuan Li, and Wei-Yun Ma.
+\newblock Graphrel: Modeling text as relational graphs for joint entity and
+  relation extraction.
+
+\bibitem{guo2019attention}
+Zhijiang Guo, Yan Zhang, and Wei Lu.
+\newblock Attention guided graph convolutional networks for relation
+  extraction.
+\newblock {\em arXiv preprint arXiv:1906.07510}, 2019.
+
+\bibitem{katiyar2017going}
+Arzoo Katiyar and Claire Cardie.
+\newblock Going out on a limb: Joint extraction of entity mentions and
+  relations without dependency trees.
+\newblock In {\em Proceedings of the 55th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 917--928, 2017.
+
+\bibitem{lee2019semantic}
+Joohong Lee, Sangwoo Seo, and Yong~Suk Choi.
+\newblock Semantic relation classification via bidirectional lstm networks with
+  entity-aware attention using latent entity typing.
+\newblock {\em Symmetry}, 11(6):785, 2019.
+
+\bibitem{li2019entity}
+Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou,
+  and Jiwei Li.
+\newblock Entity-relation extraction as multi-turn question answering.
+\newblock {\em arXiv preprint arXiv:1905.05529}, 2019.
+
+\bibitem{lin2016neural}
+Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun.
+\newblock Neural relation extraction with selective attention over instances.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 2124--2133, 2016.
+
+\bibitem{liu2015dependency}
+Yang Liu, Furu Wei, Sujian Li, Heng Ji, Ming Zhou, and Houfeng Wang.
+\newblock A dependency-based neural network for relation classification.
+\newblock {\em arXiv preprint arXiv:1507.04646}, 2015.
+
+\bibitem{mintz2009distant}
+Mike Mintz, Steven Bills, Rion Snow, and Dan Jurafsky.
+\newblock Distant supervision for relation extraction without labeled data.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP: Volume 2-Volume 2}, pages 1003--1011.
+  Association for Computational Linguistics, 2009.
+
+\bibitem{miwa2016end}
+Makoto Miwa and Mohit Bansal.
+\newblock End-to-end relation extraction using lstms on sequences and tree
+  structures.
+\newblock {\em arXiv preprint arXiv:1601.00770}, 2016.
+
+\bibitem{soares2019matching}
+Livio~Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, and Tom Kwiatkowski.
+\newblock Matching the blanks: Distributional similarity for relation learning.
+\newblock {\em arXiv preprint arXiv:1906.03158}, 2019.
+
+\bibitem{socher2012semantic}
+Richard Socher, Brody Huval, Christopher~D Manning, and Andrew~Y Ng.
+\newblock Semantic compositionality through recursive matrix-vector spaces.
+\newblock In {\em Proceedings of the 2012 joint conference on empirical methods
+  in natural language processing and computational natural language learning},
+  pages 1201--1211. Association for Computational Linguistics, 2012.
+
+\bibitem{wang2019extracting}
+Haoyu Wang, Ming Tan, Mo~Yu, Shiyu Chang, Dakuo Wang, Kun Xu, Xiaoxiao Guo, and
+  Saloni Potdar.
+\newblock Extracting multiple-relations in one-pass with pre-trained
+  transformers.
+\newblock {\em arXiv preprint arXiv:1902.01030}, 2019.
+
+\bibitem{wang2016relation}
+Linlin Wang, Zhu Cao, Gerard De~Melo, and Zhiyuan Liu.
+\newblock Relation classification via multi-level attention cnns.
+\newblock 2016.
+
+\bibitem{wu2019enriching}
+Shanchan Wu and Yifan He.
+\newblock Enriching pre-trained language model with entity information for
+  relation classification.
+\newblock {\em arXiv preprint arXiv:1905.08284}, 2019.
+
+\bibitem{xiao2016semantic}
+Minguang Xiao and Cong Liu.
+\newblock Semantic relation classification via hierarchical recurrent neural
+  network with attention.
+\newblock In {\em Proceedings of COLING 2016, the 26th International Conference
+  on Computational Linguistics: Technical Papers}, pages 1254--1263, 2016.
+
+\bibitem{xu2019relation}
+Canran Xu and Ruijiang Li.
+\newblock Relation embedding with dihedral group in knowledge graph.
+\newblock {\em arXiv preprint arXiv:1906.00687}, 2019.
+
+\bibitem{ye2019exploiting}
+Wei Ye, Bo~Li, Rui Xie, Zhonghao Sheng, Long Chen, and Shikun Zhang.
+\newblock Exploiting entity bio tag embeddings and multi-task learning for
+  relation extraction with imbalanced data.
+\newblock {\em arXiv preprint arXiv:1906.08931}, 2019.
+
+\bibitem{ye2019multi}
+Zhi-Xiu Ye and Zhen-Hua Ling.
+\newblock Multi-level matching and aggregation network for few-shot relation
+  classification.
+\newblock {\em arXiv preprint arXiv:1906.06678}, 2019.
+
+\bibitem{zeng-etal-2015-distant}
+Daojian Zeng, Kang Liu, Yubo Chen, and Jun Zhao.
+\newblock Distant supervision for relation extraction via piecewise
+  convolutional neural networks.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1753--1762, Lisbon, Portugal, September
+  2015. Association for Computational Linguistics.
+
+\bibitem{zeng2014relation}
+Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou, Jun Zhao, et~al.
+\newblock Relation classification via convolutional deep neural network.
+\newblock 2014.
+
+\bibitem{zhang2015bidirectional}
+Shu Zhang, Dequan Zheng, Xinchen Hu, and Ming Yang.
+\newblock Bidirectional long short-term memory networks for relation
+  classification.
+\newblock In {\em Proceedings of the 29th Pacific Asia conference on language,
+  information and computation}, pages 73--78, 2015.
+
+\bibitem{zhou2016attention}
+Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao, and Bo~Xu.
+\newblock Attention-based bidirectional long short-term memory networks for
+  relation classification.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, pages 207--212, 2016.
+
+\bibitem{zhu2019graph}
+Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, and Maosong Sun.
+\newblock Graph neural networks with generated parameters for relation
+  extraction.
+\newblock {\em arXiv preprint arXiv:1902.00756}, 2019.
+
+\end{thebibliography}

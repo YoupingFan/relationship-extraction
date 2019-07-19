@@ -1,0 +1,100 @@
+\documentclass[UTF8,12pt]{ctexart}
+\usepackage{cite}
+\usepackage[hmargin=1in,vmargin=1in]{geometry}
+
+\usepackage[colorlinks, 
+            linkcolor=blue,
+            citecolor=blue]{hyperref}
+
+
+\title{关系抽取调研} 
+\author{樊友平} 
+\date{2019.7.15}
+
+\begin{document}
+    \maketitle
+    \pagestyle{plain}
+    \tableofcontents
+    \thispagestyle{empty}
+    
+    \newpage
+    \setcounter{page}{1}
+    \section{关系抽取研究资料}
+    关系抽取是文本挖掘和信息抽取的核心任务，主要通过对文本信息建模，
+    自动抽取出实体对之间的语义关系。为自动问答、知识图谱等下游NLP任务服务。
+    
+    实体关系抽取有许多经典方法，但是特征提取存在深误差传播问题。
+    度学习端到端和自动特征提取的特性有效的缓解提取特征误差传播的问题。
+    深度学习应用到关系抽取分为有监督和远程监督两类。
+
+    \subsection{深度学习有监督方法}
+    有监督的关系抽取包括流水线和联合抽取。
+    流水线：把实体识别和关系分类作为两个完全独立的过程，
+    不会相互影响，关系的识别依赖于实体识别的效果。
+    联合：实体识别和关系分类的过程共同优化。
+    \subsubsection{流水线方法}
+    基于RNN模型进行关系抽取的方法由Socher \cite{socher2012semantic} 等人于2012年首次提出。
+    Zhang等人 \cite{zhang2015bidirectional} 在2015年提出Bi-LSTM进行关系分类。随后，
+    基于Attention的Bi-LSTM \cite{zhou2016attention}\cite{xiao2016semantic}
+    \cite{lee2019semantic}被用来实体关系分类。
+    
+    Zeng等人 \cite{zeng2014relation} 在2014年首次提出使用CNN进行关系分类。
+    Wang \cite{wang2016relation} 等人于2016年提出的CNN架构依赖于一种新颖的多层次注意力机制来捕获对指定实体的注意力
+    (首先是输入层级对于目标实体的注意力)和指定关系的池化注意力(其次是针对目标关系的注意力)。
+
+    Liu \cite{liu2015dependency} 等人提出基于依赖的神经网络模型，
+    Cai \cite{cai2016bidirectional} 等人于2016年提出了一种基于最短依赖路径(SDP)的深度学习关系抽取模型:
+    双向递归卷积神经网络模型(BRCNN),通过将卷积神经网络和基于LSTM单元的双通道递归神经网络相结合,
+    进一步探索如何充分利用SDP中的依赖关系信息。
+    
+    Wu等人 \cite{wu2019enriching} 使用Google的Bert预训练模型，
+    在SemEval-2010数据集取得了STOA的成绩。
+    \subsubsection{联合方法}
+    Miwa \cite{miwa2016end} 等人在2016年首次将神经网络的方法用于联合表示实体和关系。
+    Katiyar等人 \cite{katiyar2017going} 在2016年首次将深度双向LSTM序列标注的方法用于联合提取。
+    
+    \subsection{深度学习远程监督方法}
+    Mintz \cite{mintz2009distant} 于2009年首次提出将远程监督应用到关系抽取任务中，
+    远程监督方法通过数据自动对齐远程知识库来解决开放域中大量无标签数据自动标注的问题。
+    Zeng等人指出远程监督关系抽取的两个问题：错误标签的噪声和提取特征的误差传播，
+    并提出PCNN \cite{zeng-etal-2015-distant} （Piecewise Convolutional Neural Networks）结合多实例学习进行远程监督关系抽取。
+    Lin \cite{lin2016neural} 在Zeng的基础上采用Attention机制，充分利用包内的信息，进一步减弱错误打标的示例语句产生的噪声。
+
+    Ren在文献[39]中提出了联合抽取模型COTYPE，COTYPE模型与PCNN等单模型相比不仅可以扩展到不同领域，
+    而且通过把实体抽取和关系抽取两个任务结合，较好地减弱了错误的累积传播。
+    实验结果表示，其明显提升了当时State-of-the-art的效果。
+
+    \newpage    
+    \section{关系抽取关键问题}
+
+
+    \newpage
+    \section{2019 ACL 文献整理}
+    基于attention使用整颗依赖树进行关系抽取 \cite{guo2019attention}。
+
+    通过在知识图谱中的 Dihedral Group 进行关系embedding \cite{xu2019relation}。
+    
+    类似于词向量，学习预训练的泛化的关系embedding \cite{chen2019global}。
+
+    改进的图神经网络，直接对原始文本处理，推理多跳关系 \cite{zhu2019graph}。
+    
+    将关系抽取问题转化为多轮问答问题 \cite{li2019entity}。
+
+    关系抽取数据不平衡，很多实体之间没有关系，
+    BIO标注这些实体的正负样本性，通过多任务学习来提升关系抽取质量 \cite{ye2019exploiting}。
+    
+    通过预训练的Transformer，一次传入进行多个关系抽取 \cite{wang2019extracting}。
+    
+    微调预训练的Transformer（GPT）来进行远程监督学习 \cite{alt2019fine}。
+    
+    通过图卷积神经网络对实体和关系联合抽取 \cite{fugraphrel}。
+
+    通过多层匹配和注意力聚合关系抽取 \cite{ye2019multi}。
+
+    有别于传统的关系抽取方法和远程监督方法，一种新的方式 \cite{soares2019matching}。
+
+    \newpage
+    \addcontentsline{toc}{section}{参考文献}
+    \bibliographystyle{plain}
+    \bibliography{reference}
+\end{document}
